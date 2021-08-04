@@ -23,3 +23,13 @@ const navSlide = () => {
     
 
 navSlide();
+
+$('.carousel').carousel({
+    interval: 2000
+  })
+
+
+  $("#contactButton").on('click', function() {
+    $('#contactModal').modal('show');
+});
+
