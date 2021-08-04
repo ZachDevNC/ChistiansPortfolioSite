@@ -153,9 +153,14 @@ p.home {
     margin-top: 20px;
     margin-left: 100px;
     align-items: center;
+    
 }
 
 /* about page image */
 #christian {
+    margin-top: 30px;
+}
+
+footer {
     margin-top: 30px;
 }
