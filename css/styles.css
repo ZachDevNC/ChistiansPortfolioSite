@@ -40,7 +40,7 @@ a, a:hover, a:focus, a:active, button{
     color: inherit;
 }
 
-.nav-links:hover{
+#homeLink:hover, #workLink:hover, #aboutLink:hover{
     text-decoration: underline;
 }
 
@@ -104,7 +104,6 @@ a, a:hover, a:focus, a:active, button{
         background-color: white;
         z-index: 10;
         opacity: .905;
-
     }
 
     /* make home image hide on small VP */
