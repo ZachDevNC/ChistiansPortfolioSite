@@ -60,6 +60,9 @@ a, a:hover, a:focus, a:active, button{
     letter-spacing: 3px;
     
 }
+.btn-link {
+    color: black;
+}
 
 .burger {
     display: none;
@@ -71,6 +74,7 @@ a, a:hover, a:focus, a:active, button{
     background-color: black;
     margin: 5px;
     transition: all 0.3s ease;
+    z-index: 10;
 }
 
 @media screen and (max-width:1020px) {
@@ -96,6 +100,8 @@ a, a:hover, a:focus, a:active, button{
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         background-color: white;
+        z-index: 10;
+        opacity: .90;
 
     }
 
@@ -105,6 +111,7 @@ a, a:hover, a:focus, a:active, button{
     .burger {
         display: block;
         cursor: pointer;
+        z-index: 10;
     }
     
 }
@@ -161,7 +168,7 @@ p.home {
 /* home page image */
 #homeImage {
     margin-top: 20px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     align-items: center;
     
 }

@@ -33,3 +33,13 @@ $('.carousel').carousel({
     $('#contactModal').modal('show');
 });
 
+
+$('body').click(function(){
+    if($(this).is('[class*="modal-open"]' && $('#contactModal:visible'))) {
+        $('#contactModal').modal('hide');
+        $('body').removeClass('modal-open');
+        $('.modal-backdrop').remove();
+        $('#contactModal').removeClass('fade');
+        
+    } 
+  });
