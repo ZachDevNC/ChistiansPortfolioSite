@@ -262,3 +262,8 @@ button, input[type="submit"], input[type="reset"] {
     list-style: none;
     align-items: right;
 }
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(50%);
+}
