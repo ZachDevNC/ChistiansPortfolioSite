@@ -40,10 +40,10 @@ var allowedKeys = {
   function activateCheats() {
       
     // document.body.style.backgroundImage = "url('images/cheatBackground.png')";
-    alert("CHEATS ACTIVATED!");
+    
     
     // var audio = new Audio('audio/konami.mp3');
     document.getElementById('konami').play();
-  
+    alert("CHEAT CODES ACTIVATED!");
     
   }

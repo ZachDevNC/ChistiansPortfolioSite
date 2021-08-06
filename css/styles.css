@@ -227,3 +227,9 @@ button, input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 	outline: inherit;
 }
+
+.carousel-item>img {
+    width: auto; /* You can set the dimensions to whatever you want */
+    height: 660px;
+    object-fit: scale-down;
+}
