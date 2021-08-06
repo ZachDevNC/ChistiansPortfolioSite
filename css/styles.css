@@ -5,7 +5,7 @@
 
 }
 
-
+/* navbar formatting */
 nav{
     display: flex;
     justify-content: space-around;
@@ -20,7 +20,7 @@ nav{
 }
 
 
-
+/* contact modal button */
 button {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -31,22 +31,26 @@ button {
 
 }
 
+/* Christian name as home button */
 .logo a{
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 36px;
 }
 
+/* remove hover and hyperlink stylings */
 a, a:hover, a:focus, a:active, button{
     text-decoration: none;
     color: inherit;
 }
 
+/* add underline on hover for navbar */
 #homeLink:hover, #workLink:hover, #aboutLink:hover{
     text-decoration: underline;
 }
 
+/* navbar links formatting */
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -67,10 +71,12 @@ a, a:hover, a:focus, a:active, button{
     color: black;
 }
 
+/* hides burger until smaller VP */
 .burger {
     display: none;
 }
 
+/* navbar burger transitioning in */
 .burger div {
     width: 25px;
     height: 3px;
@@ -88,8 +94,9 @@ a, a:hover, a:focus, a:active, button{
 }
 
 @media screen and (max-width:768px) {
-    body {
+    .wrapper {
         overflow-x: hidden;
+        position: absolute;
     }
 
 
@@ -106,6 +113,7 @@ a, a:hover, a:focus, a:active, button{
     .site-footer {
         margin-right: 20px;
         margin-bottom: 20px;
+        
     }
 }
 
@@ -124,15 +132,18 @@ a, a:hover, a:focus, a:active, button{
         transition: transform 0.5s ease-in;
         background-color: white;
         z-index: 10;
-        opacity: .91;
+        opacity: .95;
     }
 
-    /* make home image hide on small VP */
+    /* make home image hide on small VP and copyright text small*/
     @media (max-width:768px) {
         img#homeImage {
           display: none;
         }
         
+        #copyright {
+            font-size: 12px;
+        }
       }
 
 
@@ -177,11 +188,11 @@ a, a:hover, a:focus, a:active, button{
 
 /* about page copy */
 .about {
-    margin-top: 30px;
-    align-items: center;
+    /* margin-top: 30px; */
+    /* align-items: center; */
     text-align: center;
     font-size: 16px;
-    padding-top: 200px;
+    padding-top: 80px;
     
 }
 
@@ -229,4 +240,25 @@ button, input[type="submit"], input[type="reset"] {
     /* width: auto; You can set the dimensions to whatever you want */
     height: 660px;
     object-fit: scale-down;
+}
+
+.site-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: white; */
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.footer-links li {
+    list-style: none;
+    align-items: right;
 }
