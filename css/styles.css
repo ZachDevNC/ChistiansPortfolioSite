@@ -5,6 +5,7 @@
 
 }
 
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -18,12 +19,7 @@ nav{
 
 }
 
-/* .carousel-inner { 
-    max-width:100%;
-    max-height:100%;
-    width: auto; 
-    height: auto; 
-} */
+
 
 button {
     text-transform: uppercase;
@@ -38,7 +34,7 @@ button {
 .logo a{
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 5;
+    letter-spacing: 5px;
     font-size: 36px;
 }
 
@@ -136,6 +132,7 @@ a, a:hover, a:focus, a:active, button{
         img#homeImage {
           display: none;
         }
+        
       }
 
 
@@ -229,7 +226,7 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .carousel-item>img {
-    width: auto; /* You can set the dimensions to whatever you want */
+    /* width: auto; You can set the dimensions to whatever you want */
     height: 660px;
     object-fit: scale-down;
 }
