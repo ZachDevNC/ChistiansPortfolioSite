@@ -47,3 +47,4 @@ var allowedKeys = {
     alert("CHEAT CODES ACTIVATED!");
     
   }
+  
