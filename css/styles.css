@@ -46,7 +46,7 @@ a, a:hover, a:focus, a:active, button{
 }
 
 /* add underline on hover for navbar */
-#homeLink:hover, #workLink:hover, #aboutLink:hover{
+#homeLink:hover, #workLink:hover, #aboutLink:hover, #contactButton{ 
     text-decoration: underline;
 }
 
@@ -194,7 +194,7 @@ a, a:hover, a:focus, a:active, button{
 .about {
     /* margin-top: 30px; */
     /* align-items: center; */
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     padding-top: 80px;
     
@@ -239,6 +239,11 @@ button, input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 	outline: inherit;
 }
+
+#christianCarousel {
+    max-height: 700px;
+    overflow: hidden;
+}
 .carousel-item {
     width: 100%; 
     height: 660px; /*height you want*/
@@ -250,7 +255,7 @@ button, input[type="submit"], input[type="reset"] {
     object-fit: scale-down; */
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
 
 }
 
@@ -290,7 +295,3 @@ button, input[type="submit"], input[type="reset"] {
     text-decoration: none;
 }
 
-#christianCarousel {
-    max-height: 700px;
-    overflow: hidden;
-}
